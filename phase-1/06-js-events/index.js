@@ -60,6 +60,9 @@ function renderPokemon(pokemon) {
   const deleteBttn = document.createElement("button");
   deleteBttn.className = "delete-bttn";
   deleteBttn.textContent = "Delete";
+  deleteBttn.addEventListener("click", () => {
+  pokeCard.remove()
+})
 
   pokeCard.append(pokeImg, pokeName, pokeLikes, likesNum, likeBttn, deleteBttn);
   pokeContainer.appendChild(pokeCard);
