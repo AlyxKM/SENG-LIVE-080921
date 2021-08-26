@@ -17,6 +17,42 @@
       "name": "gatorade",
       "quantity": 5,
       "completed": false
+    },
+    {
+      "name": "apples",
+      "quantity": "4",
+      "completed": false,
+      "id": 4
+    },
+    {
+      "name": "strawberries",
+      "quantity": "10",
+      "completed": false,
+      "id": 6
+    },
+    {
+      "name": "pre-made banana bread`",
+      "quantity": "1",
+      "completed": true,
+      "id": 7
+    },
+    {
+      "name": "toast",
+      "quantity": "1",
+      "completed": true,
+      "id": 8
+    },
+    {
+      "name": "water",
+      "quantity": "10",
+      "completed": false,
+      "id": 9
+    },
+    {
+      "name": "chicken",
+      "quantity": "1",
+      "completed": false,
+      "id": 10
     }
   ]
 }
